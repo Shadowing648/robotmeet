@@ -1,0 +1,84 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --black-color: #000;
+    --white-color: #ffffff;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+ header #Logo{
+    font-size:1.5rem ;
+
+}
+
+#Menu ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+.signuplink{
+    background-color: #000;
+    color: #ffffff;
+    border: 1px solid black;
+    padding: 0.8rem;
+    border-radius:15px ;
+    transition: 0.4ms;
+}
+
+.signuplink:hover{
+    background-color: #ffffff;
+    color: #000;
+}
+
+#homeSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 1.3rem;
+}
+
+.text h1 .text a{
+    margin: 0px;
+}
+
+.text p {
+    margin-block: 1.5rem;
+}
+
+main .photo
+{
+    width: 35rem;;
+}
+
+main img{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer img{
+    width: 30%;
+}
